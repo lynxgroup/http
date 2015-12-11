@@ -47,13 +47,6 @@ class Request extends Message implements RequestInterface
 		}
 	}
 
-    public function __clone()
-    {
-        $this->attributes = clone $this->attributes;
-
-		parent::__clone();
-    }
-
 	public function getRequestTarget()
 	{
 		if( $this->requestTarget !== null )
