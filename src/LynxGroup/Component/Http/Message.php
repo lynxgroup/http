@@ -1,8 +1,8 @@
 <?php namespace LynxGroup\Component\Http;
 
-use LynxGroup\Interfaces\Http\MessageInterface;
+use Psr\Http\Message\MessageInterface;
 
-use LynxGroup\Interfaces\Http\StreamInterface;
+use Psr\Http\Message\StreamInterface;
 
 use InvalidArgumentException;
 

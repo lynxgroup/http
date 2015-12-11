@@ -1,10 +1,6 @@
 <?php namespace LynxGroup\Component\Http;
 
-use LynxGroup\Interfaces\Http\ServerRequestInterface;
-
-use LynxGroup\Component\Http\Request;
-
-use LynxGroup\Component\Http\Uri;
+use Psr\Http\Message\ServerRequestInterface;
 
 use InvalidArgumentException;
 
